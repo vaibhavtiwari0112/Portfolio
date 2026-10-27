@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaibhav Tiwari – Backend Engineer (Java, Spring Boot, AWS)</title>
+<meta name="description" content="Software engineer with 2+ years building Java, Spring Boot microservices, Kafka and Redis systems. LeetCode Knight, 1900+ rating.">
+<meta property="og:title" content="Vaibhav Tiwari – Backend Engineer">
+<meta property="og:description" content="Java, Spring Boot, microservices, Kafka, Redis, AWS. Currently at TCS for NatWest Group.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">VT</a>
+  <nav>
+    <a href="#demo">Demo</a><a href="#experience">Experience</a><a href="#project">Project</a><a href="#github">GitHub</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" aria-label="Toggle dark mode">◐</button>
+</header>
+
+<main id="top">
+<section class="hero wrap">
+  <div class="hero-text">
+    <p class="status"><span class="dot"></span>Open to full stack, backend and frontend roles</p>
+    <h1>Vaibhav Tiwari builds full stack products on backends that stay correct under load.</h1>
+    <p class="lede">Software engineer with 2+ years of experience in Java, Spring Boot microservices, React.js, MongoDB, Kafka, Redis and AWS. I currently work on banking services for NatWest Group at TCS.</p>
+    <div class="cta">
+      <a class="btn primary" href="assets/Vaibhav_Tiwari_Resume.pdf" download>Download résumé</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <div class="facts" aria-label="Highlights">
+    <div><b data-count="63" data-suffix="%">63%</b><span>of mobile bank users got arrears visibility through an API I built</span></div>
+    <div><b data-count="37" data-suffix="%">37%</b><span>faster API responses via caching and query tuning</span></div>
+    <div><b>50 → 93</b><span>Lighthouse performance score after frontend work</span></div>
+    <div><b data-count="1900" data-suffix="+">1900+</b><span>LeetCode rating, Knight, top 3% globally</span></div>
+  </div>
+</section>
+
+<section id="demo" class="wrap demo">
+  <div class="sec-head">
+    <h2>Try the idea behind Eventura</h2>
+    <p>Two people should never book the same seat. Eventura prevents this with a Redis lock that expires after a set time. Click a seat to lock it, then let a second user try to take it.</p>
+  </div>
+  <div class="demo-grid">
+    <div class="stage" id="seats" role="group" aria-label="Seat map"></div>
+    <div class="panel">
+      <div class="legend"><i class="s free"></i>Free <i class="s mine"></i>Locked by you <i class="s sold"></i>Booked</div>
+      <button class="btn" id="rival" disabled>Second user tries your seat</button>
+      <pre id="log" aria-live="polite">Pick a seat to start.</pre>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="wrap">
+  <div class="sec-head"><h2>Experience</h2></div>
+  <ol class="timeline">
+    <li>
+      <div class="when">Feb 2025 – Present</div>
+      <div class="what">
+        <div class="logos"><img class="logo-img" src="https://www.google.com/s2/favicons?domain=tcs.com&sz=128" alt="Tata Consultancy Services logo" width="44" height="44" loading="lazy" onerror="this.style.display='none'"><img class="logo-img" src="https://www.google.com/s2/favicons?domain=natwestgroup.com&sz=128" alt="NatWest Group logo" width="44" height="44" loading="lazy" onerror="this.style.display='none'"></div>
+        <h3>System Engineer, Tata Consultancy Services</h3>
+        <p class="sub">Client: NatWest Group · Gurgaon</p>
+        <ul>
+          <li>Built a REST API that aggregates data from 2 in-house applications, giving 63% of bank users arrears visibility on mobile.</li>
+          <li>Cut duplicate agent calls by 30% with an API that blocks repeat outreach to recently contacted customers.</li>
+          <li>Integrated HashiCorp Vault to secure 100+ application credentials and remove hardcoded secrets.</li>
+          <li>Migrated 6 Spring Boot microservices from Java 8 to Java 17, reducing end-of-life risk.</li>
+          <li>Renewed 3 types of SSL/TLS certificates across 7–8 microservices before expiry, avoiding outages.</li>
+          <li>Automated tracker preparation and cut the time it takes by 66%.</li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div class="when">Jul 2024 – Jan 2025</div>
+      <div class="what">
+        <div class="logos"><img class="logo-img" src="https://www.google.com/s2/favicons?domain=innostax.com&sz=128" alt="Innostax Software Labs logo" width="44" height="44" loading="lazy" onerror="this.style.display='none'"></div>
+        <h3>Associate Software Engineer, Innostax Software Labs</h3>
+        <p class="sub">Gurgaon</p>
+        <ul>
+          <li>Reduced API response time by 37% with caching strategies and optimized database queries.</li>
+          <li>Raised the Lighthouse performance score from 50 to 93 by optimizing page-load efficiency.</li>
+          <li>Added zero-cost bookings without payment processing to the Tavatrip flight-booking app.</li>
+          <li>Built 4+ responsive React.js interfaces from Figma designs using reusable components.</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section id="project" class="wrap">
+  <div class="sec-head"><h2>Project</h2></div>
+  <article class="project">
+    <div>
+      <h3>Eventura</h3>
+      <p class="sub">Full-stack microservices ticket booking platform</p>
+      <ul>
+        <li>Designed 7 independent Spring Boot services behind an API Gateway, covering authentication, event catalog, shows, booking, payments and notifications.</li>
+        <li>Stopped double-booking with Redis distributed locks that use TTL-based seat holds.</li>
+        <li>Connected 3 services through Kafka events, with Redis caching and PostgreSQL persistence.</li>
+        <li>Containerized all 7 services with Docker for reproducible environments.</li>
+      </ul>
+      <div class="tags"><span>Spring Boot</span><span>Kafka</span><span>Redis</span><span>PostgreSQL</span><span>Docker</span></div>
+      <a class="btn" href="https://github.com/vaibhavtiwari0112?tab=repositories" target="_blank" rel="noopener" id="gh-project">View on GitHub</a>
+    </div>
+    <svg viewBox="0 0 320 240" class="arch" role="img" aria-label="Eventura architecture: API gateway routes to booking, payment and notification services connected by Kafka, with Redis and PostgreSQL">
+      <g class="n"><rect x="110" y="10" width="100" height="32" rx="6"/><text x="160" y="31">API Gateway</text></g>
+      <g class="n"><rect x="10" y="100" width="90" height="32" rx="6"/><text x="55" y="121">Booking</text></g>
+      <g class="n"><rect x="115" y="100" width="90" height="32" rx="6"/><text x="160" y="121">Payments</text></g>
+      <g class="n"><rect x="220" y="100" width="90" height="32" rx="6"/><text x="265" y="121">Notify</text></g>
+      <g class="n k"><rect x="10" y="160" width="300" height="28" rx="6"/><text x="160" y="179">Kafka events</text></g>
+      <g class="n r"><rect x="10" y="206" width="140" height="28" rx="6"/><text x="80" y="225">Redis seat locks</text></g>
+      <g class="n"><rect x="170" y="206" width="140" height="28" rx="6"/><text x="240" y="225">PostgreSQL</text></g>
+      <path d="M160 42V70M55 70H265M55 70V100M160 70V100M265 70V100"/>
+    </svg>
+  </article>
+</section>
+
+<section id="github" class="wrap">
+  <div class="sec-head"><h2>More from GitHub</h2><p>These cards load live from my GitHub account, so they always show my latest public work.</p></div>
+  <div id="repos" class="repos" aria-live="polite"><p class="muted">Loading repositories…</p></div>
+  <p class="more"><a class="btn" href="https://github.com/vaibhavtiwari0112?tab=repositories" target="_blank" rel="noopener">See all repositories</a></p>
+</section>
+
+<section id="skills" class="wrap">
+  <div class="sec-head"><h2>Skills</h2></div>
+  <dl class="skills">
+    <div><dt>Languages</dt><dd>Java, C++, JavaScript, SQL</dd></div>
+    <div><dt>Backend</dt><dd>Spring Boot, Spring Data JPA, Hibernate, REST APIs, Microservices</dd></div>
+    <div><dt>Distributed systems</dt><dd>Kafka, Redis, distributed locking, event-driven architecture, caching</dd></div>
+    <div><dt>Databases</dt><dd>MongoDB, PostgreSQL, Redis</dd></div>
+    <div><dt>Cloud and DevOps</dt><dd>AWS (EC2, S3, RDS, Lambda, CloudWatch), Docker, GitHub Actions, CI/CD</dd></div>
+    <div><dt>Frontend and full stack</dt><dd>React.js, React-Redux, JavaScript, MongoDB, REST APIs, Spring Boot</dd></div>
+    <div><dt>Testing</dt><dd>JUnit</dd></div>
+  </dl>
+  <div class="edu">
+    <p><b>B.Tech, Computer Science and Engineering</b> – Ajay Kumar Garg Engineering College, Ghaziabad. Nov 2020 – Jun 2024. CGPA 7.69/10.</p>
+    <p><b>LeetCode Knight</b> – 1900+ rating, top 3% globally, 250+ problems solved.</p>
+  </div>
+</section>
+</main>
+
+<footer id="contact" class="wrap contact">
+  <h2>Let’s talk about your backend.</h2>
+  <p>I’m looking for full stack, backend and frontend roles where I can build and scale products end to end.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=vaibhavtiwari0128@gmail.com&su=Opportunity%20for%20Vaibhav%20Tiwari" target="_blank" rel="noopener" id="mail">vaibhavtiwari0128@gmail.com</a>
+    <a class="btn" href="tel:+918957603823">+91 89576 03823</a>
+    <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener" id="li">LinkedIn</a>
+    <a class="btn" href="https://github.com/vaibhavtiwari0112?tab=repositories" target="_blank" rel="noopener" id="gh">GitHub</a>
+  </div>
+  <small>© 2026 Vaibhav Tiwari</small>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
