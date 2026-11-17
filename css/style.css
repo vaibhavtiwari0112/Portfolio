@@ -50,7 +50,7 @@ h2{font-size:clamp(1.8rem,3.6vw,2.6rem);font-weight:800;margin-bottom:.7rem}
 h3{font-size:1.3rem;font-weight:700}
 .sub{color:var(--muted);margin:.2rem 0 .8rem;font-size:.95rem}
 .what ul,.project ul{padding-left:1.1rem;display:grid;gap:.5rem;max-width:68ch}
-.project{display:grid;grid-template-columns:1.2fr 1fr;gap:2.5rem;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:2rem}
+.project{display:grid;gap:2.5rem;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:2rem}
 .tags{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.2rem 0}
 .tags span{font-size:.85rem;padding:.2rem .7rem;border-radius:99px;background:var(--bg);border:1px solid var(--line)}
 .arch{width:100%}
